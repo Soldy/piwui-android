@@ -1,13 +1,15 @@
-package com.wcontrol;
+package com.piwui;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.content.DialogInterface;
+import android.app.AlertDialog;
 
 
-public class wcontrol extends Activity {
+public class piwui extends Activity {
     private WebView mWebView; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
