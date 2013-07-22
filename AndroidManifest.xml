@@ -8,6 +8,7 @@
     <application android:label="@string/app_name"  android:icon="@drawable/icon">
         <activity android:name="piwui"
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="fullSensor"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
